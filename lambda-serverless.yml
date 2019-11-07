@@ -24,8 +24,8 @@ Parameters:
 
   GitHubOAuthToken:
     Type: String
-    # Default: 0781541aa1cf4da08c520980d8ee3544c4ba940b
-    Default:  GitHub OAuthToken Here
+    Default: 63d4e73cc22fcd60369c34a3b18b254c2bef46ed
+    # Default:  GitHub OAuthToken Here
     # NoEcho: True
     Description:  CodePipeline requires an OAuthToken
 
@@ -168,7 +168,7 @@ Resources:
       Environment:
         Type: "LINUX_CONTAINER"
         ComputeType: BUILD_GENERAL1_SMALL
-        Image: aws/codebuild/nodejs:10
+        Image: aws/codebuild/nodejs:10.1.0
       Artifacts:
         Type: CODEPIPELINE
 
@@ -196,7 +196,7 @@ Resources:
           - Name: env
             Type: PLAINTEXT
             Value: !Ref Environment
-        Image: aws/codebuild/nodejs:10
+        Image: aws/codebuild/nodejs:10.1.0
       Artifacts:
         Type: CODEPIPELINE
 
