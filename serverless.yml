@@ -1,0 +1,19 @@
+service: lambda-serverless
+
+provider:
+  name: aws
+  runtime: nodejs10.x
+  stage: dev
+  region: ap-southeast-2
+  # deploymentBucket:
+  #    name: ${file(${self:custom.envFileName}):S3_BUCKET, 'awsvn'}
+
+plugins:
+  - serverless-offline
+
+functions:
+  app:
+    handler: index.handler
+    events:
+      - http: ANY /
+      - http: 'ANY {proxy+}'
