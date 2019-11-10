@@ -1,14 +1,14 @@
 #! /bin/bash
 
-echo "Installing serverless"
-echo "_______________________________"
+echo "Installing Serverless"
+echo "------------------------------"
 
 npm install -g serverless
 # npm install serverless-dynamodb-local serverless-offline serverless-stack-output
 npm install serverless-dynamodb-local serverless-offline
 
 echo "Deploying to $env"
-echo "_______________________________"
+echo "------------------------------"
 
 # export SLS_DEBUG=*
 env
