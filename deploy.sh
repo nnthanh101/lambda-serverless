@@ -13,7 +13,7 @@ echo "------------------------------"
 # export SLS_DEBUG=*
 env
 
-aws iam list-roles
+# aws iam list-roles
 # aws s3api create-bucket --bucket lambda-serverless
 
 echo "serverless deploy --stage $env --package $CODEBUILD_SRC_DIR/artifacts/$env -v"
