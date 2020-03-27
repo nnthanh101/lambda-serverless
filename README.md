@@ -1,4 +1,5 @@
-# lambda-serverless
+# CI/CD Pipeline for Lambda/API-Gateway Serverless Development
+
 [![Build Status](https://travis-ci.org/nnthanh101/lambda-serverless.svg?branch=master)](https://travis-ci.org/nnthanh101/lambda-serverless)
 
 AWS CloudFormation template creating CodePipeline, CodeBuild supporting Serverless Framework and GitHub.
