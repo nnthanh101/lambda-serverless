@@ -16,7 +16,7 @@ before_install:
 install: true
 
 script:
-  - aws cloudformation validate-template --template-body file://lambda-serverless.yml
+#   - aws cloudformation validate-template --template-body file://lambda-serverless.yml
   - yaml-lint lambda-serverless.yml
 
 after_success:
