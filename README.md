@@ -1,4 +1,4 @@
-# CI/CD Pipeline for Lambda/API-Gateway Serverless Development
+# CI/CD Pipeline for [Serverless Framework](https://serverless.com/) Development
 
 [![Build Status](https://travis-ci.org/nnthanh101/lambda-serverless.svg?branch=master)](https://travis-ci.org/nnthanh101/lambda-serverless)
 
