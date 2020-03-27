@@ -1,7 +1,7 @@
 # lambda-serverless
-[![Build Status](https://travis-ci.org/vbosstech/lambda-serverless.svg?branch=master)](https://travis-ci.org/vbosstech/lambda-serverless)
+[![Build Status](https://travis-ci.org/nnthanh101/lambda-serverless.svg?branch=master)](https://travis-ci.org/nnthanh101/lambda-serverless)
 
-AWS CloudFormation template creating CodePipeline, CodeBuild supporting Serverless Framework and GitHub
+AWS CloudFormation template creating CodePipeline, CodeBuild supporting Serverless Framework and GitHub.
 
 ## Description
 
